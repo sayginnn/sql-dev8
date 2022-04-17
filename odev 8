@@ -1,0 +1,85 @@
+--test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+CREATE TABLE employee(
+	id INTEGER PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	birthday DATE,
+	EMAİL varchar(100)
+);
+--Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+insert into author (first_name, last_name, email, birthday) values ('Linet', 'Sarjent', 'lsarjent0@sphinn.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Robinett', 'Alessandone', 'ralessandone1@slate.com', '10/14/2021');
+insert into author (first_name, last_name, email, birthday) values ('Patrice', 'Drowsfield', 'pdrowsfield2@samsung.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Ericha', 'Blunsum', 'eblunsum3@techcrunch.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Moise', 'Cardenas', 'mcardenas4@feedburner.com', '3/30/2022');
+insert into author (first_name, last_name, email, birthday) values ('Willamina', 'McLernon', 'wmclernon5@comcast.net', null);
+insert into author (first_name, last_name, email, birthday) values ('Noelani', 'Misselbrook', 'nmisselbrook6@multiply.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Missy', 'Suggitt', 'msuggitt7@google.ca', '6/6/2021');
+insert into author (first_name, last_name, email, birthday) values ('Melina', 'Boake', 'mboake8@sbwire.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Gladys', 'Kinnett', 'gkinnett9@networkadvertising.org', null);
+insert into author (first_name, last_name, email, birthday) values ('Stavro', 'Clamo', 'sclamoa@wiley.com', '4/27/2021');
+insert into author (first_name, last_name, email, birthday) values ('Delmore', 'Sentinella', 'dsentinellab@reference.com', '2/17/2022');
+insert into author (first_name, last_name, email, birthday) values ('Devin', 'Lanchberry', 'dlanchberryc@ocn.ne.jp', null);
+insert into author (first_name, last_name, email, birthday) values ('Linell', 'Mattosoff', 'lmattosoffd@globo.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Rourke', 'Deverall', 'rdeveralle@indiatimes.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Pattin', 'Hess', 'phessf@fema.gov', null);
+insert into author (first_name, last_name, email, birthday) values ('Bram', 'Palle', 'bpalleg@webs.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Kort', 'Sleigh', 'ksleighh@wiley.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Franciska', 'Gouthier', 'fgouthieri@usnews.com', '2/15/2022');
+insert into author (first_name, last_name, email, birthday) values ('Cordy', 'Quoit', 'cquoitj@aboutads.info', '12/22/2021');
+insert into author (first_name, last_name, email, birthday) values ('Cornie', 'Ong', 'congk@tripadvisor.com', '4/5/2022');
+insert into author (first_name, last_name, email, birthday) values ('Ira', 'Kytley', 'ikytleyl@epa.gov', null);
+insert into author (first_name, last_name, email, birthday) values ('Paloma', 'Raccio', 'pracciom@unesco.org', '2/23/2022');
+insert into author (first_name, last_name, email, birthday) values ('Cathe', 'Wandless', 'cwandlessn@vk.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Leeland', 'Loffel', 'lloffelo@stumbleupon.com', '4/22/2021');
+insert into author (first_name, last_name, email, birthday) values ('Flori', 'Pettiford', 'fpettifordp@cbc.ca', null);
+insert into author (first_name, last_name, email, birthday) values ('Erny', 'MacMenamin', 'emacmenaminq@github.io', '11/18/2021');
+insert into author (first_name, last_name, email, birthday) values ('Lida', 'Waliszewski', 'lwaliszewskir@about.com', '9/26/2021');
+insert into author (first_name, last_name, email, birthday) values ('Dominique', 'Morston', 'dmorstons@bing.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Arly', 'Beastall', 'abeastallt@topsy.com', '9/15/2021');
+insert into author (first_name, last_name, email, birthday) values ('Eda', 'Beadnell', 'ebeadnellu@naver.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Kelsy', 'de la Valette Parisot', 'kdelavaletteparisotv@newsvine.com', '10/14/2021');
+insert into author (first_name, last_name, email, birthday) values ('Berton', 'Kolakowski', 'bkolakowskiw@drupal.org', null);
+insert into author (first_name, last_name, email, birthday) values ('Ernesta', 'Scanlin', 'escanlinx@cdc.gov', null);
+insert into author (first_name, last_name, email, birthday) values ('Byrle', 'Braunds', 'bbraundsy@netvibes.com', '7/7/2021');
+insert into author (first_name, last_name, email, birthday) values ('Cynthea', 'Kegan', 'ckeganz@seesaa.net', '2/21/2022');
+insert into author (first_name, last_name, email, birthday) values ('Idalina', 'Tuxsell', 'ituxsell10@google.com', '12/19/2021');
+insert into author (first_name, last_name, email, birthday) values ('Durward', 'Hustings', 'dhustings11@wikia.com', '4/16/2022');
+insert into author (first_name, last_name, email, birthday) values ('Damon', 'Patullo', 'dpatullo12@nih.gov', '9/21/2021');
+insert into author (first_name, last_name, email, birthday) values ('Chad', 'Dacks', 'cdacks13@jimdo.com', null);
+insert into author (first_name, last_name, email, birthday) values ('Brewster', 'Fattorini', 'bfattorini14@discuz.net', null);
+insert into author (first_name, last_name, email, birthday) values ('Giacomo', 'Grinsdale', 'ggrinsdale15@reuters.com', '12/25/2021');
+--Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
+
+UPDATE employee
+SET name = 'sena'
+WHERE id < 58;
+UPDATE employee 
+SET birthday = '1997-01-11'
+WHERE id =3;
+UPDATE employee 
+SET name = 'buse'
+WHERE id = 19;
+UPDATE employee 
+SET birthday= '2022-04-17'
+WHERE name ILIKE 'A%';
+UPDATE employee 
+SET name = 'aynur'
+WHERE id = 45;
+--Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım
+
+delete from employee
+where name='sena'
+returning *;
+delete from employee
+where birthday='2022-04-17'
+returning *;
+delete from employee
+ WHERE id =3
+returning *;
+delete  from employee
+ WHERE name like '%D'
+returning *;
+delete  from employee
+ WHERE id =1
+returning *;
